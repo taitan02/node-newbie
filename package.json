@@ -1,0 +1,32 @@
+{
+  "name": "newbie",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start":"nodemon --inspect index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taitan02/node-newbie.git"
+  },
+  "keywords": [
+    "node",
+    "newbie",
+    "practice",
+    "nodejs"
+  ],
+  "author": "tai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taitan02/node-newbie/issues"
+  },
+  "homepage": "https://github.com/taitan02/node-newbie#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
