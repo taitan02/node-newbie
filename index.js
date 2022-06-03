@@ -1,7 +1,9 @@
 const express = require('express')
 const app = express()
 const port = 3000
+const morgan = require('morgan')
 
+app.use(morgan('combined'))
 app.get('/', (req, res) => {
   res.send('Hello World!')
 })
@@ -9,8 +11,4 @@ app.get('/', (req, res) => {
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
-
-const a=[1,2,3,4]
-const [b]=a
-console.log(b)
-console.log(a)
+ 
